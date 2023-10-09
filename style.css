@@ -1,0 +1,55 @@
+/* ---------------------------------------
+                 CSS Resting
+---------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+
+/* Remove list styles for ul and ol elements */
+
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default hyperlink styles */
+
+a {
+  text-decoration: none;
+}
+
+/* Add a default cursor for clickable elements */
+
+a, button, input {
+  cursor: pointer;
+}
+
+
+/* -------------------------------------
+                Main CSS
+------------------------------------- */
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    color: black;
+    font-size: 3rem;
+}
